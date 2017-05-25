@@ -51,11 +51,17 @@ module Network.API.TheMovieDB
   , runTheMovieDB
   , runTheMovieDBWithManager
   , searchMovies
+  , searchMoviesLocalized
   , fetchMovie
+  , fetchMovieLocalized
   , searchTV
+  , searchTVLocalized
   , fetchTV
+  , fetchTVLocalized
   , fetchTVSeason
+  , fetchTVSeasonLocalized
   , fetchFullTVSeries
+  , fetchFullTVSeriesLocalized
 
     -- * Utility Types and Functions
   , Configuration
