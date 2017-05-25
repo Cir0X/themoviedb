@@ -17,6 +17,7 @@ module Network.API.TheMovieDB.Internal.Types
        , Key
        , Body
        , Path
+       , Language
        , Error (..)
        ) where
 
@@ -40,6 +41,9 @@ type Path = String
 --------------------------------------------------------------------------------            
 -- | HTTP body.            
 type Body = ByteString
+
+-- | Language Code
+type Language = Text
 
 --------------------------------------------------------------------------------
 -- | Possible errors returned by the API.
